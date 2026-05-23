@@ -3,20 +3,8 @@ Ce projet implémente l'algorithme de Floyd-Warshall permettant de calculer les 
 
 
 
-
 Structure du projet
-Projet_Floyd_Warshall/
-├── main.py
-├── floyd_warshall.py
-├── chargeur_graphe.py
-├── execution_trace.txt
-├── Recherche_des_billets_avion_moins_chers_Europe_Floyd_Warshall.pdf
-└── graphs/
-    ├── graph1.txt
-    ├── graph2.txt
-    ├── ...
-    └── graph14.txt
-
+Le dossier racine contient les trois fichiers Python du programme (main.py, floyd_warshall.py, chargeur_graphe.py), le fichier de traces d'exécution (execution_trace.txt), ainsi que le rapport PDF. Les fichiers de graphes sont regroupés dans un sous-dossier graphs/ qui contient les 14 fichiers texte graph1.txt à graph14.txt.
 Lancement du programme
 Prérequis : Python 3 installé sur la machine.
 Se placer dans le dossier racine du projet (là où se trouve main.py), puis lancer :
