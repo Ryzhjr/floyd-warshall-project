@@ -24,11 +24,9 @@ Recherche_des_billets_avion_moins_chers_Europe_Floyd_Warshall.pdf
 Rapport décrivant l'exemple réel modélisé (réseau aérien européen), les données, les résultats et leur interprétation.
 
 Format des fichiers graphes
-Chaque fichier graph{n}.txt suit le format suivant :
-Ligne 1 : nombre de sommets
-Ligne 2 : nombre d'arcs
-Lignes suivantes : sommet_origine  sommet_destination  valeur
-Exemple :
+Chaque fichier graph{n}.txt suit le format suivant : la première ligne indique le nombre de sommets, la deuxième le nombre d'arcs, puis chaque ligne suivante décrit un arc sous la forme sommet_origine  sommet_destination  valeur.
+Exemple avec 4 sommets et 5 arcs :
+
 4
 5
 0 1 1
@@ -36,6 +34,14 @@ Exemple :
 1 2 3
 1 3 5
 2 3 2
+
+Fonctionnalités
+
+Chargement d'un graphe depuis un fichier texte
+Affichage de la matrice d'adjacence initiale avec les numéros de sommets en en-tête
+Exécution de Floyd-Warshall avec affichage des matrices L et P à chaque étape intermédiaire
+Détection automatique des circuits absorbants
+Affichage interactif des chemins les plus courts entre deux sommets au choix
 
 Fonctionnalités
 
