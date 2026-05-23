@@ -27,13 +27,13 @@ Format des fichiers graphes
 Chaque fichier graph{n}.txt suit le format suivant : la première ligne indique le nombre de sommets, la deuxième le nombre d'arcs, puis chaque ligne suivante décrit un arc sous la forme sommet_origine  sommet_destination  valeur.
 Exemple avec 4 sommets et 5 arcs :
 
-4
-5
-0 1 1
-0 2 5
-1 2 3
-1 3 5
-2 3 2
+4/
+5/
+0 1 1/
+0 2 5/
+1 2 3/
+1 3 5/
+2 3 2/
 
 Fonctionnalités
 
@@ -43,10 +43,4 @@ Exécution de Floyd-Warshall avec affichage des matrices L et P à chaque étape
 Détection automatique des circuits absorbants
 Affichage interactif des chemins les plus courts entre deux sommets au choix
 
-Fonctionnalités
 
-Chargement d'un graphe depuis un fichier texte
-Affichage de la matrice d'adjacence initiale
-Exécution de Floyd-Warshall avec affichage des matrices L et P à chaque étape
-Détection automatique des circuits absorbants
-Affichage interactif des chemins les plus courts entre deux sommets
